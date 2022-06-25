@@ -57,10 +57,14 @@ button {
   color: aliceblue;
 }
 
+.scss-operator {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
 .scss-operator .box {
   width: 33.3333333333%;
   float: left;
-  height: 250px;
+  height: 150px;
 }
 .scss-operator .box1 {
   background-color: palevioletred;
@@ -80,4 +84,35 @@ button {
 }
 .scss-operator .box3 {
   background-color: rgb(216, 206, 112);
+}
+
+.section-import {
+  margin: 50px 0px;
+  border: 4px solid red;
+  display: block;
+  overflow: hidden;
+}
+.section-import .card {
+  background-color: #DFDFDF;
+  box-shadow: 1px 0px 1px #383636;
+  border: 1px solid transparent;
+  margin: 0px auto;
+  display: block;
+  width: 350px;
+  padding: 10px;
+}
+.section-import .card img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.section-import .card h3 {
+  font-size: 18px;
+  line-height: 26px;
+  padding: 5px 0px;
+}
+.section-import .card p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #665f5f;
 }/*# sourceMappingURL=style.css.map */

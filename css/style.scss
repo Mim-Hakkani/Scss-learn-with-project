@@ -74,10 +74,12 @@ button{
 
 .scss-operator{
 
+    margin-bottom: 15px;
+    overflow: hidden;
        .box{
         width: (100%/3);
         float: left;
-        height: 250px;
+        height: 150px;
        }
 
         .box1{
@@ -107,5 +109,15 @@ button{
         }
       
 }
+
+
+// scss partial and normal import export 
+
+// normal import is working 
+   @import "card"
+
+//partial import setup 
+
+// @import '_card'
 
 
