@@ -79,8 +79,21 @@ button{
         float: left;
         height: 250px;
        }
+
         .box1{
             background-color: palevioletred;
+            h2{
+                font-size: 20px+5;
+                color: red;
+            }
+            @media screen and (max-width:600px) {
+             
+                 h2{
+                    color: #000;
+                    font-size: 25px-10;
+                 }
+              
+            }
         }
           
 

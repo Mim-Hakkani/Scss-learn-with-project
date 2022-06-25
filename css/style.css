@@ -65,6 +65,16 @@ button {
 .scss-operator .box1 {
   background-color: palevioletred;
 }
+.scss-operator .box1 h2 {
+  font-size: 25px;
+  color: red;
+}
+@media screen and (max-width: 600px) {
+  .scss-operator .box1 h2 {
+    color: #000;
+    font-size: 15px;
+  }
+}
 .scss-operator .box2 {
   background-color: rgb(133, 216, 112);
 }
