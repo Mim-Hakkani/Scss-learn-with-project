@@ -5,9 +5,9 @@
 }
 
 body{
-    background-color: rgb(127, 187, 177);
+    // background-color: rgb(127, 187, 177);
     font-size: 16px;
-    color: aliceblue;
+    // color: aliceblue;
 
     ul{
         list-style: none;
@@ -19,3 +19,20 @@ body{
 
     }
 }
+
+// variable in sass changes the color 
+
+$BasicColor : rgb(128, 9, 0);
+
+h3 {
+ color: $BasicColor;
+}
+p{
+    color: $BasicColor;
+}
+button{
+    background-color: $BasicColor;
+    color: aliceblue;
+}
+
+

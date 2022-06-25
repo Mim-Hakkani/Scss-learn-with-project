@@ -5,9 +5,7 @@
 }
 
 body {
-  background-color: rgb(127, 187, 177);
   font-size: 16px;
-  color: aliceblue;
 }
 body ul {
   list-style: none;
@@ -15,4 +13,17 @@ body ul {
 body p {
   font-size: 16px;
   line-height: 26px;
+}
+
+h3 {
+  color: rgb(128, 9, 0);
+}
+
+p {
+  color: rgb(128, 9, 0);
+}
+
+button {
+  background-color: rgb(128, 9, 0);
+  color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
