@@ -26,4 +26,33 @@ p {
 button {
   background-color: rgb(128, 9, 0);
   color: aliceblue;
+}
+
+.nested-scss {
+  background-color: rgb(189, 89, 189);
+  opacity: 0.9;
+}
+.nested-scss h1 {
+  text-align: center;
+  font-style: italic;
+}
+.nested-scss ul {
+  list-style-type: none;
+}
+.nested-scss ul li {
+  display: inline-block;
+}
+.nested-scss ul li a {
+  display: block;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: aquamarine;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s ease-out;
+  border-radius: 5px;
+}
+.nested-scss ul li a:hover {
+  background-color: rgb(51, 74, 179);
+  color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
