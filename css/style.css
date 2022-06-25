@@ -173,4 +173,27 @@ button:hover {
 .function-scss .one-third-2 {
   width: 200px;
   border: 1px solid seagreen;
+}
+
+.scss-extends-button .button-two, .scss-extends-button .button-one {
+  padding: 8px 14px;
+  text-align: center;
+  font-weight: 700;
+  margin: 5px 10px;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.scss-extends-button {
+  border: 1px solid salmon;
+  padding: 20px;
+}
+.scss-extends-button .button-one {
+  color: #fff;
+  background-color: rgb(194, 42, 16);
+}
+.scss-extends-button .button-two {
+  color: rgb(22, 21, 21);
+  background-color: rgb(14, 218, 207);
 }/*# sourceMappingURL=style.css.map */
