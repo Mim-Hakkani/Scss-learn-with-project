@@ -174,20 +174,22 @@ $container-width : 1200;
 
 .function-scss{
     display: flex;
+
     h2{
        width: half($container-width);
        border: 1px solid slateblue;
     }
+
     .one-third-1{
      width:one-third-fun($container-width);
        border: 1px solid salmon;
 
     }
 
-.one-third-2{
+    .one-third-2{
         width: one-third-fun2($container-width);
-       border: 1px solid seagreen; 
- }
+        border: 1px solid seagreen; 
+    }
     
 }
 

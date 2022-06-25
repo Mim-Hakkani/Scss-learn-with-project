@@ -6,3 +6,4 @@
 * operator in scsss
 * import in scss 
 * mixin and include function is all
+* functional scss is completed 
