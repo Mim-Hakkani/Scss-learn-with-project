@@ -17,6 +17,7 @@
     outline: 0px solid transparent ;
     transition: 0.5s ease-in-out;
 
+
     &:hover{
         background-color: rgb(19, 126, 158);
     }
@@ -151,4 +152,44 @@ button{
     }
 
    }
+
+
+//    function in scss function  
+//   ********    example test in width ********
+
+$container-width : 1200;
+
+@function half($width){
+
+    @return $width/2+px;
+};
+
+@function one-third-fun($width){
+    @return $width/3+px;
+};
+
+@function one-third-fun2($width){
+    @return $width/6+px;
+};
+
+.function-scss{
+    display: flex;
+    h2{
+       width: half($container-width);
+       border: 1px solid slateblue;
+    }
+    .one-third-1{
+     width:one-third-fun($container-width);
+       border: 1px solid salmon;
+
+    }
+
+.one-third-2{
+        width: one-third-fun2($container-width);
+       border: 1px solid seagreen; 
+ }
+    
+}
+
+
 

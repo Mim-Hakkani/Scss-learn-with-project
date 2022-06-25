@@ -157,4 +157,20 @@ button:hover {
 }
 .btnGroup button:hover {
   background-color: rgb(19, 126, 158);
+}
+
+.function-scss {
+  display: flex;
+}
+.function-scss h2 {
+  width: 600px;
+  border: 1px solid slateblue;
+}
+.function-scss .one-third-1 {
+  width: 400px;
+  border: 1px solid salmon;
+}
+.function-scss .one-third-2 {
+  width: 200px;
+  border: 1px solid seagreen;
 }/*# sourceMappingURL=style.css.map */
