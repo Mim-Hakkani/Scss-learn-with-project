@@ -23,6 +23,9 @@
     }
 }
 
+// normal testing all basic from 
+
+
 body{
     // background-color: rgb(127, 187, 177);
     font-size: 16px;
@@ -39,6 +42,9 @@ body{
     }
 }
 
+
+
+
 // variable in sass changes the color 
 
 $BasicColor : rgb(128, 9, 0);
@@ -52,6 +58,8 @@ p{
 button{
     @include allbutton ;
 }
+
+//nesting scss properties 
 
 .nested-scss{
     background-color: rgb(189, 89, 189);
