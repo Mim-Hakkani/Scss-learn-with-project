@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: rgb(127, 187, 177);
+    font-size: 16px;
+    color: aliceblue;
+
+    ul{
+        list-style: none;
+    }
+    div {
+        height: 50px;
+        width: 50px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+}
