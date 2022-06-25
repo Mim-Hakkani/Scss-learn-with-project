@@ -7,3 +7,4 @@
 * import in scss 
 * mixin and include function is all
 * functional scss is completed 
+* extennds in scss (like as inheritance ...)
