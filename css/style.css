@@ -55,4 +55,19 @@ button {
 .nested-scss ul li a:hover {
   background-color: rgb(51, 74, 179);
   color: aliceblue;
+}
+
+.scss-operator .box {
+  width: 33.3333333333%;
+  float: left;
+  height: 250px;
+}
+.scss-operator .box1 {
+  background-color: palevioletred;
+}
+.scss-operator .box2 {
+  background-color: rgb(133, 216, 112);
+}
+.scss-operator .box3 {
+  background-color: rgb(216, 206, 112);
 }/*# sourceMappingURL=style.css.map */

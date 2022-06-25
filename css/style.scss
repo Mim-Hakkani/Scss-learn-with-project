@@ -70,3 +70,29 @@ button{
 }
 
 
+// scss operator is 
+
+.scss-operator{
+
+       .box{
+        width: (100%/3);
+        float: left;
+        height: 250px;
+       }
+        .box1{
+            background-color: palevioletred;
+        }
+          
+
+        .box2{
+             background-color: rgb(133, 216, 112);
+        }
+
+         
+       .box3{
+             background-color: rgb(216, 206, 112);
+        }
+      
+}
+
+
