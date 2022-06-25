@@ -4,3 +4,4 @@
 * At First declare the variable in scss 
 * nested class or tags 
 * operator in scsss
+* import in scss 

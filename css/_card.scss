@@ -28,6 +28,10 @@
         line-height: 22px;
         color:#665f5f ;
     }
+
+    button{
+        @include allbutton ;
+    }
 }
 
 }

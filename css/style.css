@@ -24,8 +24,19 @@ p {
 }
 
 button {
-  background-color: rgb(128, 9, 0);
-  color: aliceblue;
+  padding: 7px 14px;
+  background-color: rgb(255, 72, 0);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  border: 0px solid transparent;
+  outline: 0px solid transparent;
+  transition: 0.5s ease-in-out;
+}
+button:hover {
+  background-color: rgb(19, 126, 158);
 }
 
 .nested-scss {
@@ -115,4 +126,35 @@ button {
   font-size: 16px;
   line-height: 22px;
   color: #665f5f;
+}
+.section-import .card button {
+  padding: 7px 14px;
+  background-color: rgb(255, 72, 0);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  border: 0px solid transparent;
+  outline: 0px solid transparent;
+  transition: 0.5s ease-in-out;
+}
+.section-import .card button:hover {
+  background-color: rgb(19, 126, 158);
+}
+
+.btnGroup button {
+  padding: 7px 14px;
+  background-color: rgb(255, 72, 0);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  border: 0px solid transparent;
+  outline: 0px solid transparent;
+  transition: 0.5s ease-in-out;
+}
+.btnGroup button:hover {
+  background-color: rgb(19, 126, 158);
 }/*# sourceMappingURL=style.css.map */

@@ -4,6 +4,24 @@
     outline: 0;
 }
 
+@mixin allbutton {
+    
+    padding: 7px 14px;
+    background-color: rgb(255, 72, 0);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    border: 0px solid transparent;
+    outline: 0px solid transparent ;
+    transition: 0.5s ease-in-out;
+
+    &:hover{
+        background-color: rgb(19, 126, 158);
+    }
+}
+
 body{
     // background-color: rgb(127, 187, 177);
     font-size: 16px;
@@ -31,8 +49,7 @@ p{
     color: $BasicColor;
 }
 button{
-    background-color: $BasicColor;
-    color: aliceblue;
+    @include allbutton ;
 }
 
 .nested-scss{
@@ -114,10 +131,24 @@ button{
 // scss partial and normal import export 
 
 // normal import is working 
-   @import "card"
+   @import "card";
 
 //partial import setup 
 
-// @import '_card'
+   // @import '_card'
 
+
+
+
+
+   // scss common and multiple styles in one attributes name  @mixin and inclide 
+
+
+.btnGroup {
+
+    button{
+        @include allbutton;
+    }
+
+   }
 
